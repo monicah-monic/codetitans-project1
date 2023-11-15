@@ -1,0 +1,56 @@
+ body{
+     font-family: sans-serif;
+ }
+ 
+.main-ctr {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between; 
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.ctr {
+    width: 360px;
+    height: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem;
+    border: 1px  ;
+    margin: 10px; 
+}
+@media(max-width: 768px){
+    .main-ctr{
+        flex-direction: column;
+          width: 100%;
+    }
+    .ctr{
+        width: 100%;
+    }
+}
+.fa-star
+{
+font-size: 10x;
+color:black;
+
+}
+img {
+    width: 360px;
+    height: 272px;
+    /* background:none;   */
+    
+}
+img:hover{   
+    cursor: pointer;
+}
+.text {
+    padding: 10px;
+    
+}
+button {
+    background-color: palevioletred;
+    margin-left: 10px;
+    border-color: white;
+    padding: 5px;
+    border-radius: 4px;
+}
